@@ -1,35 +1,84 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edunspira - Platform Pembelajaran PPKn</title>
-    <link rel="stylesheet" href="style.css">  </head>
+    <meta name="description" content="Edunspira - Inspiring Education for Everyone">
+    <title>Edunspira</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Edunspira",
+      "url": "http://www.edunspira.com",
+      "logo": "http://www.edunspira.com/logo.png",
+      "sameAs": [
+        "http://www.facebook.com/edunspira",
+        "http://www.twitter.com/edunspira",
+        "http://www.instagram.com/edunspira"
+      ]
+    }
+    </script>
+</head>
 <body>
-
     <header>
-        <h1>Edunspira</h1>
         <nav>
             <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Materi</a></li>
-                <li><a href="#">Latihan Soal</a></li>
-                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Selamat Datang di Edunspira!</h2>
-            <p>Edunspira adalah platform pembelajaran PPKn online yang dirancang khusus untuk siswa SMA di Indonesia.</p>
+        <section id="home">
+            <h1>Welcome to Edunspira</h1>
+            <p>Your source of inspiration for education.</p>
+            <img src="images/home-banner.jpg" alt="Edunspira Home Banner">
         </section>
 
-        </main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Edunspira is dedicated to providing quality educational resources and inspiration to learners of all ages.</p>
+            <img src="images/about-us.jpg" alt="About Edunspira">
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <article>
+                <h3>Online Courses</h3>
+                <p>We offer a variety of online courses to help you learn new skills and advance your career.</p>
+            </article>
+            <article>
+                <h3>Workshops</h3>
+                <p>Join our workshops to get hands-on experience and learn from experts in the field.</p>
+            </article>
+            <article>
+                <h3>Consulting</h3>
+                <p>Our consulting services are designed to help educational institutions improve their programs and services.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to learn more about our services, please get in touch.</p>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 Edunspira</p>
+        <p>&copy; 2023 Edunspira. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
