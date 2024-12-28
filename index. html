@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Edunspira - Belajar PPKn SMA">
+    <title>Edunspira - Belajar PPKn SMA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Edunspira",
+      "url": "http://www.edunspira.com",
+      "logo": "http://www.edunspira.com/logo.png",
+      "sameAs": [
+        "http://www.facebook.com/edunspira",
+        "http://www.twitter.com/edunspira",
+        "http://www.instagram.com/edunspira"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Edunspira - Belajar PPKn SMA</h1>
+                <p>Platform pembelajaran PPKn yang interaktif dan menarik untuk siswa SMA.</p>
+                <a href="#start" class="cta-button">Mulai Belajar</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Edunspira adalah platform pembelajaran online yang fokus pada materi PPKn untuk siswa SMA. Kami menyediakan materi interaktif, latihan soal, dan forum diskusi untuk membantu siswa belajar dengan lebih efektif.</p>
+        </section>
+
+        <section id="features">
+            <h2>Fitur Kami</h2>
+            <div class="feature">
+                <h3>Dashboard Siswa</h3>
+                <p>Lihat progress belajar, riwayat penilaian, dan informasi profil.</p>
+            </div>
+            <div class="feature">
+                <h3>Materi Interaktif</h3>
+                <p>Belajar dengan teks, gambar, video, dan kuis.</p>
+            </div>
+            <div class="feature">
+                <h3>Latihan Soal</h3>
+                <p>Latihan soal dan evaluasi untuk setiap bab atau topik.</p>
+            </div>
+            <div class="feature">
+                <h3>Forum Diskusi</h3>
+                <p>Berinteraksi dengan siswa lain dan guru.</p>
+            </div>
+            <div class="feature">
+                <h3>Gamification</h3>
+                <p>Dapatkan poin, lencana, dan naikkan peringkat di leaderboard.</p>
+            </div>
+            <div class="feature">
+                <h3>Search Bar</h3>
+                <p>Cari materi dengan mudah.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Edunspira. All rights reserved.</p>
+    </footer>
+</body>
+</html>
